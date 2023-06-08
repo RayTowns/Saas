@@ -1,0 +1,121 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-width: fit-content;
+  background-color: snow;
+  margin: 2 rem;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(235, 31, 133);
+  padding: 1rem;
+  height: 150px;
+  margin-bottom: 1rem;
+  border: solid 1px magenta;
+}
+header h3 {
+  color: rgb(255, 84, 255);
+}
+
+.descricao {
+  width: 900px;
+}
+.descricao h2 {
+  color: darkmagenta;
+  text-align: center;
+}
+.descricao img {
+  margin-right: 1rem;
+  width: auto;
+  height: 300px;
+}
+.descricao p {
+  color: grey;
+  font-size: 14px;
+}
+
+.introducao {
+  font: lighter;
+  text-align: left;
+  color: darkmagenta;
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.quemsou {
+  width: 250px;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+.produtos h1 {
+  color: rgb(146, 38, 156);
+  text-align: center;
+}
+.produtos p {
+  color: darkmagenta;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.table {
+  padding: 1rem;
+  align-content: center;
+  text-align: center;
+  border: 0cm;
+}
+.table th {
+  color: darkmagenta;
+  margin-bottom: 0.5rem;
+  text-size-adjust: 15px;
+}
+.table td {
+  border: solid 1px rgb(230, 11, 211);
+  width: auto;
+  text-align: center;
+}
+.table img {
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.novidades h2 {
+  color: darkmagenta;
+  text-align: center;
+}
+
+.product_new td {
+  border: none;
+  width: auto;
+  text-align: center;
+}
+.product_new img {
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+.product_new button {
+  background-color: rgb(151, 100, 199);
+  width: 7rem;
+  height: 2rem;
+  border: solid 1px rgb(230, 11, 211);
+  border-radius: 25px;
+}
+.product_new a {
+  color: rgb(250, 250, 243);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(253, 188, 221);
+  padding: 0.5rem;
+}
+footer p {
+  color: rgb(102, 0, 56);
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=css.map */

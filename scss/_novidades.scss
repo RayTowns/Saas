@@ -1,0 +1,40 @@
+.novidades{
+
+    h2{
+        color: $color05;
+        text-align: $text-align;
+    }
+
+    table{
+        padding: $alignTable;
+        margin: 1rem;
+
+    }
+
+    td{
+    border: none;
+    width: $image_patternWidth;
+    text-align: $text-align;
+    }
+
+    img{
+    width: $image_patternWidth;
+    height: $image_patternHeight;
+    padding: 5px;
+    }
+
+    button{
+        background-color: rgb(151, 100, 199);
+        width: 7rem;
+        height: 2rem;
+        border:  $border_pattern;
+        border-radius: $button_border-radius;
+    }
+
+    a{
+        color: rgb(250, 250, 243);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+    }
+}

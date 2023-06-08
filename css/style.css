@@ -1,0 +1,132 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: snow;
+  margin: 2 rem;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(235, 31, 133);
+  padding: 1rem;
+  height: 150px;
+  margin-bottom: 1rem;
+  border: solid 1px magenta;
+}
+header h3 {
+  color: rgb(255, 84, 255);
+}
+
+.descricao {
+  padding: 0 2rem 0 2rem;
+  text-align: center;
+}
+.descricao h2 {
+  color: darkmagenta;
+  text-align: center;
+}
+.descricao img {
+  margin-right: 1rem;
+  width: auto;
+  height: 350px;
+}
+.descricao p {
+  color: grey;
+  font-size: 14px;
+}
+
+.introducao {
+  font: lighter;
+  text-align: left;
+  color: darkmagenta;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  width: 750px;
+}
+
+.quemsou {
+  width: 350px;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+.produtos {
+  background-color: rgb(253, 170, 212);
+  padding: 1rem;
+  margin: 1rem;
+}
+.produtos h1 {
+  color: rgb(146, 38, 156);
+  text-align: center;
+}
+.produtos p {
+  color: darkmagenta;
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.table {
+  padding: 1rem 2rem 1rem 5rem;
+  align-content: center;
+  text-align: center;
+  border: 0cm;
+}
+.table th {
+  color: darkmagenta;
+  margin-bottom: 0.5rem;
+  font-size: 15px;
+}
+.table td {
+  border: solid 1px rgb(230, 11, 211);
+  width: auto;
+  text-align: center;
+}
+.table img {
+  width: auto;
+  height: 350px;
+  padding: 5px;
+}
+
+.novidades h2 {
+  color: darkmagenta;
+  text-align: center;
+}
+.novidades table {
+  padding: 1rem 2rem 1rem 5rem;
+  margin: 1rem;
+}
+.novidades td {
+  border: none;
+  width: auto;
+  text-align: center;
+}
+.novidades img {
+  width: auto;
+  height: 350px;
+  padding: 5px;
+}
+.novidades button {
+  background-color: rgb(151, 100, 199);
+  width: 7rem;
+  height: 2rem;
+  border: solid 1px rgb(230, 11, 211);
+  border-radius: 25px;
+}
+.novidades a {
+  color: rgb(250, 250, 243);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(253, 188, 221);
+  padding: 0.5rem;
+}
+footer p {
+  color: rgb(102, 0, 56);
+  font-size: 13px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

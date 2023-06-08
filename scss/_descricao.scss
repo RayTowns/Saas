@@ -1,0 +1,20 @@
+.descricao{
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+
+    h2{
+        color: $color05;
+        text-align: $text-align;
+    }
+
+    img{
+        margin-right: 1rem;
+        width: $image_patternWidth;
+        height: $image_patternHeight;
+    }
+
+    p{
+        color: $color07;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,24 @@
+.table{
+    padding: $alignTable;
+    align-content: center;
+    text-align: $text-align;
+    border: 0cm;
+
+    th{
+        color: $color05;
+        margin-bottom: 0.5rem;
+        font-size: 15px;
+    }
+
+    td{
+        border: $border_pattern;
+        width: $image_patternWidth;
+        text-align: $text-align;
+    }
+
+    img{
+        width: $image_patternWidth;
+        height: $image_patternHeight;
+        padding: 5px;
+    }
+}

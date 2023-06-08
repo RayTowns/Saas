@@ -1,0 +1,19 @@
+html{
+    font-family: $font_pattern;
+    background-color: $color01;
+    margin: 2 rem;
+}
+
+header{
+    text-align: $text-align;
+    background-color: $color02;
+    padding: 1rem;
+    height: 150px;
+    margin-bottom: 1rem;
+    border: solid 1px magenta;
+
+    h3{
+        color: $color06;
+    }
+}
+
