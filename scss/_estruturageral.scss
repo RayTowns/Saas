@@ -1,19 +1,61 @@
+@use 'sass:math';
+
 html{
+
     font-family: $font_pattern;
     background-color: $color01;
-    margin: 2 rem;
-}
+    
+    
+        
+        header{
+            .container{
+            margin: 0 auto;
+            align-self: center;
+            text-align: $text-align;
+            background-color: $color02;
+            padding: 1rem;
+            height: 150px;
+            margin-bottom: 1rem;
+            border: solid 1px magenta;
 
-header{
-    text-align: $text-align;
-    background-color: $color02;
-    padding: 1rem;
-    height: 150px;
-    margin-bottom: 1rem;
-    border: solid 1px magenta;
+            &__title{
+                color: $color08;
+                text-align: $text-align;
+            }
+        
+            &__subtitlesm{
+                color: $color06;
+            }
+            }
+        }
 
-    h3{
-        color: $color06;
+    
+    
+    @media (max-width:1200px) {
+        max-width: math.div(1200, 1200) * 100%;
+        font-size: 90.5%;
     }
+
+    @media (max-width: 720px) {
+        max-width: math.div(720, 720) * 100%;
+        font-size: 80.5%;
+    }
+
+    @media (max-width: 450px) {
+        max-width: math.div(450, 450) * 100%;
+        font-size: 70.5%;
+    }
+
+    @media (max-width: 415px) {
+        max-width: math.div(415, 415) * 100%;
+        font-size: 60.5%;
+    }
+
 }
+
+
+
+
+
+
 

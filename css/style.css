@@ -1,10 +1,10 @@
 html {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: snow;
-  margin: 2 rem;
 }
-
-header {
+html header .container {
+  margin: 0 auto;
+  align-self: center;
   text-align: center;
   background-color: rgb(235, 31, 133);
   padding: 1rem;
@@ -12,107 +12,257 @@ header {
   margin-bottom: 1rem;
   border: solid 1px magenta;
 }
-header h3 {
+html header .container__title {
+  color: rgb(253, 170, 212);
+  text-align: center;
+}
+html header .container__subtitlesm {
   color: rgb(255, 84, 255);
+}
+@media (max-width: 1200px) {
+  html {
+    max-width: 100%;
+    font-size: 90.5%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+    max-width: 100%;
+    font-size: 80.5%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    max-width: 100%;
+    font-size: 70.5%;
+  }
+}
+@media (max-width: 415px) {
+  html {
+    max-width: 100%;
+    font-size: 60.5%;
+  }
 }
 
 .descricao {
-  padding: 0 2rem 0 2rem;
+  padding: 0 1rem 0 1rem;
   text-align: center;
 }
-.descricao h2 {
+.descricao__subtitle {
   color: darkmagenta;
   text-align: center;
 }
-.descricao img {
-  margin-right: 1rem;
-  width: auto;
-  height: 350px;
-}
-.descricao p {
+.descricao__pharagraf {
   color: grey;
   font-size: 14px;
+}
+.descricao__image {
+  margin-right: 1rem;
+  max-width: 250px;
 }
 
 .introducao {
   font: lighter;
   text-align: left;
   color: darkmagenta;
-  margin-left: 3rem;
-  margin-right: 1rem;
-  width: 750px;
 }
 
-.quemsou {
-  width: 350px;
-  margin-right: 5rem;
+.descricao {
+  height: auto;
+  width: 90vw;
   text-align: center;
 }
 
 .produtos {
   background-color: rgb(253, 170, 212);
-  padding: 1rem;
-  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-content: center;
 }
-.produtos h1 {
+.produtos__title {
   color: rgb(146, 38, 156);
   text-align: center;
 }
-.produtos p {
+.produtos__pharagraf {
   color: darkmagenta;
   font-size: 13px;
   font-weight: lighter;
   text-align: center;
 }
 
-.table {
-  padding: 1rem 2rem 1rem 5rem;
+.produtos .table {
   align-content: center;
+  margin-left: 10rem;
   text-align: center;
   border: 0cm;
 }
-.table th {
+@media (max-width: 1200px) {
+  .produtos .table {
+    width: 33%;
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 850px) {
+  .produtos .table {
+    width: 33%;
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 650px) {
+  .produtos .table {
+    width: 33%;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 570px) {
+  .produtos .table {
+    width: 33%;
+    margin-left: 1.5rem;
+  }
+}
+@media (max-width: 424px) {
+  .produtos .table {
+    width: 33%;
+    margin-left: 1rem;
+  }
+}
+.produtos .table tr {
+  width: 30%;
+}
+.produtos .table__title {
   color: darkmagenta;
   margin-bottom: 0.5rem;
   font-size: 15px;
 }
-.table td {
+.produtos .table__content {
   border: solid 1px rgb(230, 11, 211);
-  width: auto;
   text-align: center;
+  width: 30%;
 }
-.table img {
-  width: auto;
-  height: 350px;
+.produtos .table__image {
+  width: 250px;
+  height: auto;
   padding: 5px;
 }
+@media (max-width: 1200px) {
+  .produtos .table__image {
+    width: 220px;
+  }
+}
+@media (max-width: 850px) {
+  .produtos .table__image {
+    width: 175px;
+  }
+}
+@media (max-width: 650px) {
+  .produtos .table__image {
+    width: 150px;
+  }
+}
+@media (max-width: 570px) {
+  .produtos .table__image {
+    width: 125px;
+  }
+}
+@media (max-width: 424px) {
+  .produtos .table__image {
+    width: 100px;
+  }
+}
 
-.novidades h2 {
+.novidades {
+  padding-bottom: 1rem;
+}
+.novidades__subtitle {
   color: darkmagenta;
   text-align: center;
 }
-.novidades table {
-  padding: 1rem 2rem 1rem 5rem;
-  margin: 1rem;
-}
-.novidades td {
-  border: none;
-  width: auto;
+.novidades__highlight {
+  background: rgb(241, 120, 252);
+  border: solid 0.5px rgb(230, 11, 211);
+  color: #fff;
   text-align: center;
 }
-.novidades img {
-  width: auto;
-  height: 350px;
-  padding: 5px;
+.novidades table {
+  background: #ffffff;
+  border: solid 0.5px rgb(230, 11, 211);
+  color: #fff;
+  text-align: center;
+  margin-left: 6rem;
 }
-.novidades button {
+@media (max-width: 1200px) {
+  .novidades table {
+    width: 24.75%;
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 850px) {
+  .novidades table {
+    width: 24.75%;
+    margin-left: 6rem;
+  }
+}
+@media (max-width: 650px) {
+  .novidades table {
+    width: 24.75%;
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 570px) {
+  .novidades table {
+    width: 24.75%;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 424px) {
+  .novidades table {
+    width: 24.75%;
+    margin-left: 1rem;
+  }
+}
+.novidades__table-content {
+  border: none;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.novidades__image {
+  padding: 2px;
+  width: 250px;
+  height: auto;
+}
+@media (max-width: 1200px) {
+  .novidades__image {
+    width: 180px;
+  }
+}
+@media (max-width: 850px) {
+  .novidades__image {
+    width: 145px;
+  }
+}
+@media (max-width: 650px) {
+  .novidades__image {
+    width: 120px;
+  }
+}
+@media (max-width: 570px) {
+  .novidades__image {
+    width: 90px;
+  }
+}
+@media (max-width: 424px) {
+  .novidades__image {
+    width: 80px;
+  }
+}
+.novidades__button {
   background-color: rgb(151, 100, 199);
   width: 7rem;
   height: 2rem;
   border: solid 1px rgb(230, 11, 211);
   border-radius: 25px;
 }
-.novidades a {
+.novidades__link {
   color: rgb(250, 250, 243);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
@@ -122,6 +272,7 @@ header h3 {
 footer {
   background-color: rgb(253, 188, 221);
   padding: 0.5rem;
+  margin-top: 1rem;
 }
 footer p {
   color: rgb(102, 0, 56);

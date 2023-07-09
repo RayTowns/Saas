@@ -1,29 +1,86 @@
-.novidades{
+@mixin theme($theme: rgb(241, 120, 252)) {
+    background: $theme;
+    border: solid 0.5px $color09;
+    color: #fff;
+    text-align: center;
+  }
 
-    h2{
+.novidades{
+    padding-bottom: 1rem;
+
+    &__subtitle{
         color: $color05;
         text-align: $text-align;
     }
 
+    &__highlight{
+        @include theme;
+    }
+
     table{
-        padding: $alignTable;
-        margin: 1rem;
+        @include theme($theme: #ffffff);
+        margin-left: 6rem;
 
+        @media (max-width:1200px) {
+            width: calc(99% / 4);
+            margin-left: 5rem;
+        }
+    
+        @media (max-width: 850px) {
+            width: calc(99% / 4);
+            margin-left: 6rem;
+        }
+    
+        @media (max-width: 650px) {
+            width: calc(99% / 4);
+            margin-left: 4rem;
+        }
+
+        @media (max-width: 570px) {
+            width: calc(99% / 4);
+            margin-left: 3rem;
+        }
+
+        @media (max-width: 424px) {
+            width: calc(99% / 4);
+            margin-left: 1rem;
+        }
+        
     }
 
-    td{
-    border: none;
-    width: $image_patternWidth;
-    text-align: $text-align;
+    &__table-content {
+        border: none;
+        text-align: $text-align;
+        padding-bottom: 10px;
+        }
+
+    &__image {
+        padding: 2px;
+        width: 250px;
+        height: auto;
+
+        @media (max-width:1200px) {
+            width: 180px;
+        }
+    
+        @media (max-width: 850px) {
+            width: 145px;
+        }
+    
+        @media (max-width: 650px) {
+            width: 120px;
+        }
+
+        @media (max-width: 570px) {
+            width: 90px;
+        }
+
+        @media (max-width: 424px) {
+            width: 80px;
+        }
     }
 
-    img{
-    width: $image_patternWidth;
-    height: $image_patternHeight;
-    padding: 5px;
-    }
-
-    button{
+    &__button{
         background-color: rgb(151, 100, 199);
         width: 7rem;
         height: 2rem;
@@ -31,7 +88,7 @@
         border-radius: $button_border-radius;
     }
 
-    a{
+    &__link{
         color: rgb(250, 250, 243);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 12px;

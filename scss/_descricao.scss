@@ -1,20 +1,20 @@
 .descricao{
-    padding: 0 2rem 0 2rem;
+    padding: 0 1rem 0 1rem;
     text-align: center;
 
-    h2{
+    &__subtitle{
         color: $color05;
         text-align: $text-align;
     }
 
-    img{
-        margin-right: 1rem;
-        width: $image_patternWidth;
-        height: $image_patternHeight;
-    }
 
-    p{
-        color: $color07;
-        font-size: 14px;
-    }
+    &__pharagraf{
+            color: $color07;
+            font-size: 14px;
+        }
+    
+        &__image{
+            margin-right: 1rem;
+            max-width: 250px;
+        }
 }

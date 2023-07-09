@@ -1,5 +1,8 @@
-.quemsou{
-    width: 350px;
-    margin-right: 5rem;
+@use 'sass:math';
+
+.descricao{
+    height: auto;
+    width: 90vw;
     text-align: $text-align;
+
 }

@@ -1,15 +1,15 @@
 .produtos {
-
     background-color: $color08;
-    padding: 1rem;
-    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-content: center;
 
-    h1{
+    &__title{
         color: $color04;
         text-align: $text-align;
     }
 
-    p{
+    &__pharagraf{
         color: $color05;
         font-size: 13px;
         font-weight: lighter;

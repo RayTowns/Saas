@@ -1,24 +1,75 @@
-.table{
-    padding: $alignTable;
-    align-content: center;
-    text-align: $text-align;
-    border: 0cm;
-
-    th{
-        color: $color05;
-        margin-bottom: 0.5rem;
-        font-size: 15px;
-    }
-
-    td{
-        border: $border_pattern;
-        width: $image_patternWidth;
+.produtos{
+    .table{
+        align-content: center;
+        margin-left: 10rem;
         text-align: $text-align;
-    }
+        border: 0cm;
 
-    img{
-        width: $image_patternWidth;
-        height: $image_patternHeight;
-        padding: 5px;
+        @media (max-width:1200px) {
+            width: calc(99% / 3);
+            margin-left: 7rem;
+        }
+    
+        @media (max-width: 850px) {
+            width: calc(99% / 3);
+            margin-left: 4rem;
+        }
+    
+        @media (max-width: 650px) {
+            width: calc(99% / 3);
+            margin-left: 3rem;
+        }
+
+        @media (max-width: 570px) {
+            width: calc(99% / 3);
+            margin-left: 1.5rem;
+        }
+
+        @media (max-width: 424px) {
+            width: calc(99% / 3);
+            margin-left: 1rem;
+        }
+        
+        tr{
+            width: calc(90% / 3);
+        }
+
+        &__title{
+            color: $color05;
+            margin-bottom: 0.5rem;
+            font-size: 15px;
+        }
+    
+        &__content{
+            border: $border_pattern;
+            text-align: $text-align;
+            width: calc(90% / 3);
+        }
+    
+        &__image{
+            width: 250px;
+            height: auto;
+            padding: 5px;
+
+            @media (max-width:1200px) {
+                width: 220px;
+            }
+        
+            @media (max-width: 850px) {
+                width: 175px;
+            }
+        
+            @media (max-width: 650px) {
+                width: 150px;
+            }
+
+            @media (max-width: 570px) {
+                width: 125px;
+            }
+
+            @media (max-width: 424px) {
+                width: 100px;
+            }
+        }
     }
 }
